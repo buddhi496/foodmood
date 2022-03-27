@@ -103,3 +103,55 @@ p{
     background-color: #928b82;
 }
 
+.menu{
+    display: block;
+}
+
+.menu1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu1 img{
+    height: 300px;
+    width: 300px;
+    filter: grayscale(50%);
+    object-fit: cover;
+    padding: 25px;
+}
+
+.menu1 h2{
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu2 p{
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #0f0d0a;
+}
+
+.footer .icons{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer .icons .fa-solid{
+    color: aliceblue;
+    padding: 15px;
+    text-transform: lowercase;
+}
+
+.fa-brands{
+    height: 10px;
+    width: 10px;
+    color: aliceblue;
+    padding: 10px;
+}
